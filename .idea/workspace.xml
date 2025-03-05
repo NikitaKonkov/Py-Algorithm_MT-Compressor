@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f822f72f-2e8d-495b-987d-5371384a88d6" name="Changes" comment="first overhaul">
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semi-Working_mt_compressor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semi-Working_mt_compressor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Working_decompressor_for_mt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working_decompressor_for_mt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reame.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741179782595</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first overhaul">
+      <option name="closed" value="true" />
+      <created>1741179845167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741179845167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
