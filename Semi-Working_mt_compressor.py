@@ -1,7 +1,7 @@
 import concurrent.futures
 from collections import Counter
 
-with open("README.txt", "r", encoding="utf") as f:
+with open("data", "r", encoding="utf") as f:
     string = f.read()
     save_str = string
 data_set = sorted(set(save_str)) # char set
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
         if not set(similarity_list): # if NO sim anymore break
             FIN = chr(len(data_set))+"".join(data_set)+ chr(counter) + cache + s # Final compressed data
-            with open("../testfile.nik", "w", encoding="utf") as f:
+            with open("../data", "w", encoding="utf") as f:
                 f.write(FIN)
                 print(FIN.__sizeof__())
                 print("finish")
