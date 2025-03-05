@@ -1,7 +1,7 @@
 import concurrent.futures
 from collections import Counter
 
-with open("testfile.txt", "r", encoding="utf") as f:
+with open("README.txt", "r", encoding="utf") as f:
     string = f.read()
     save_str = string
 data_set = sorted(set(save_str)) # char set

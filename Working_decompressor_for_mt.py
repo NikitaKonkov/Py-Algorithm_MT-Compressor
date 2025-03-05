@@ -23,7 +23,7 @@ s = f[ord(f[ord(f[0])+1])*2+ord(f[0])+2:]  # compressed part
 for x in range(len(cache)):  # decompression part
     s = s.replace(chars[len(cache)-x-1], "".join(cache[x]))
 
-with open("testfile.txt", "r", encoding="utf-8") as f:  # open original file to check
+with open("README.txt", "r", encoding="utf-8") as f:  # open original file to check
     string = f.read()
 
 if s == string:
